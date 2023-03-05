@@ -1,0 +1,573 @@
+/*=============== SET UP  ===============*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+  }
+  
+a {
+    text-decoration: none;
+  }
+  
+img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+/*=============== NAV BAR  ===============*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    direction: rtl;
+    height: 82px;
+    border-bottom: 1px solid #000;
+    background: red;
+}
+.login--links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    direction: rtl;
+    margin-right: 95px;     
+    /* position: absolute; */
+    width: 1166px;
+    height: 48px;
+    left: 539px;
+    top: 17px;
+    /* bottom: 27px; */
+}
+.nav__link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    direction: ltr;
+    /* column-gap: 3rem; */
+    width: 46.313rem;
+    height: 1.188rem;
+
+    left: 539px;
+    top: 32px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+
+}
+.login{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 40px;
+    gap: 16px;
+    /* position: absolute; */
+    width: 131px;
+    height: 48px;
+    left: 1374px;
+    top: 17px;
+
+    background: linear-gradient(272.09deg, #FF4581 0%, #4182D5 100%);
+    border-radius: 100px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+/* identical to box height, or 188% */
+    letter-spacing: 0.01em;
+
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.logo {
+     position: absolute;
+
+    /* width: 37.37px; */
+    /* height: 32.14px;  */
+    left: 134.24px;
+    top: 20.38px;
+
+    /* background: #FF4581;
+    border-radius: 8px; */
+}
+.logo .logo-type {
+    direction: ltr;
+    width: 117px;
+    height: 34px;
+    left: 145px;
+    top: 24px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+/* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+
+
+/*=============== HOME PAGE  ===============*/
+.home--page{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    background-image: url(abstract-background-with-low-poly-design.jpg);
+    height:897px;
+    left: 2px;
+    top: 82px;
+
+    background-color: rgba(143, 32, 146, 0.45);
+    /* filter: blur(422px); */
+    backdrop-filter: blur(50px);
+/* Note: backdrop-filter has minimal browser support */
+
+
+    
+}
+/*=============== banner--left  ===============*/
+.banner--left{
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+    position: static;
+    width: 590px;
+    height: 349px;
+    left: 95px;
+    top: 221px;
+}
+.sale--offer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 376px;
+    height: 40px;
+    left: 96px;
+    top: 221px;
+    
+    background: #2F1D52;
+    border-radius: 100px;
+}
+.sale--offer :first-child {
+    margin-left: .25rem;
+    display: flex;
+    align-items: center;
+    width: 116px;
+    height: 32px;
+    left: 101px;
+    top: 225px;
+    
+    background: #FFFFFF;
+    border-radius: 100px;
+}
+.sale--title{
+    width: 215px;
+    height: 18px;
+    left: 242px;
+    top: 233px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    
+    color: rgba(255, 255, 255, 0.8);
+    
+}
+.register--and--buy__buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 15px 17px 27px;
+    gap: 16px;
+    
+    width: 330px;
+    height: 64px;
+    left: 95px;
+    top: 506px;
+    
+    background: linear-gradient(272.09deg, #FF4581 0%, #4182D5 100%);
+    border-radius: 100px;
+    
+}
+.register--and--buy__buttons i {
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+
+    
+    background: #FFFFFF;
+}
+
+/*=============== banner--right  ===============*/
+.banner--right{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    text-align: center;
+    box-sizing: border-box;
+    
+    position: static;
+    width: 571px;
+    height: 451px;
+    left: 935px;
+    top: 170px;
+
+    background: rgba(75, 52, 111, 0.45);
+    border: 3px solid #64527F;
+    backdrop-filter: blur(12px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 12px;
+}
+.banner--right_title {
+    margin-left: 4.5rem;
+    width: 387px;
+    height: 47px;
+    left: 1067px;
+    top: 207px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 55px;
+/* or 153% */
+
+
+    color: #FFFFFF;
+}
+.counter{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.counter--sections{
+    text-align: center;
+    justify-content: center;
+    width: 69px;
+    height: 121px;
+    margin-left: 2.5rem;
+    top: 285px;
+}
+.counter--sections span {
+    width: 36px;
+    height: 55px;
+    
+    top: 351px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 55px;
+/* identical to box height, or 344% */
+
+
+    color: #FFFFFF;
+
+}
+.counter--sections p {
+    text-align: center;
+    width: 45px;
+    height: 55px;
+    left: 1365px;
+    top: 292px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 55px;
+    /* identical to box height, or 153% */
+
+
+    color: #FFFFFF;
+
+}
+.counter--squer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 69px;
+    height: 70px;
+    left: 1020px;
+    top: 285px;
+
+    background: #4A396F;
+    border-radius: 8px;
+}
+
+.counter--timeline{
+    width: 487px;
+    height: 109px;
+    left: 975px;
+    top: 419px;
+}
+
+.upper-title {
+    display: flex;
+   justify-content: space-between;
+    margin-left: 4rem;
+}
+.firs-part{
+    display: flex;
+    width: 160px;
+    height: 60px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 30px;
+    /* or 231% */
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+.number {
+    color: #FE4581;
+}
+.scond-part {
+    display: flex;
+    width: 160px;
+    height: 60px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 30px;
+    /* or 231% */
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+.range{
+    width: 487px;
+    height: 42px;
+    margin-left: 2.5rem;
+    top: 451px;
+    background: #544878;
+    border-radius: 100px;
+}
+.fill-range{
+    /* position: absolute; */
+    width: 183px;
+    height: 34px;
+    margin-left: .25rem;
+    background: linear-gradient(272.09deg, #FF4581 0%, #4182D5 100%);
+    border-radius: 100px;
+}
+.fill-range p {
+    width: 49px;
+    height: 30px;
+    margin-left: 7rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 30px;
+/* identical to box height, or 231% */
+    position: relative;
+    letter-spacing: 0.01em;
+
+    color: #FFFFFF;
+
+}
+.lines{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+    align-items: center;
+    z-index: 100;
+    /* margin-top: rem; */
+    
+}
+.line {
+    width: 48px;
+    height: 0px;
+    left: 1061px;
+    top: 447px;
+
+    border: 2px solid #FFFFFF;
+    transform: rotate(90deg);
+
+}
+
+.sub-title{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 30px;
+    left: 1032px;
+    top: 498px;
+    margin-left: 5.5rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 30px;
+    /* identical to box height, or 214% */
+    
+    letter-spacing: 0.01em;
+    
+    color: #FFFFFF;
+    
+}
+
+
+
+.supper--logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:6rem;
+    width: 100%;
+    height: 70px;
+    background: rgba(101, 83, 135, 0.3);
+}
+.logo__container {
+
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 46px;
+    color: #ffff;
+    font-size: 2rem;
+}
+
+/*=============== info--page  ===============*/
+.info--page{
+    width: 100%;
+    height: 1000px;
+    background-color: aquamarine;
+    /* background-image: url(sl_021422_48550_10.png); */
+}
+.info--container{
+    position: relative;
+    top: 140px;
+    margin-left: 1163px;
+    width: 600px;
+    height: 500px;
+    background-color: #2F1D52;
+}
+.info--title{
+    width: 232px;
+    height: 55px;
+    left: 936px;
+    top: 883px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 55px;
+    /* identical to box height, or 157% */
+    
+    letter-spacing: 0.01em;
+    
+    color: #FFFFFF;
+}
+.info--span{
+    width: 529px;
+    height: 40px;
+    left: 935px;
+    top: 949px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+    
+    color: #FFFFFF;
+}
+.info--content{
+    display: flex;
+    /* row-gap: 2rem; */
+}
+.dashed--lines{
+    z-index: 2;
+    position: absolute;
+    margin-top: 22rem;
+    margin-left: 67.33rem;
+    width: 222px;
+    height: 0px;
+    border: 2px dashed #4081D4;
+    transform: rotate(90deg);
+}
+.info--sections {
+    width: 96px;
+    height: 303px;
+    background-color: #FE4581;
+   display: flex;
+   flex-direction: column;
+   row-gap: 3rem;
+
+}
+.info--section{
+    width: 48px;
+    height: 48px;
+    z-index: 3;
+    background-image: linear-gradient(298.91deg, #FF4581 -3.22%, #4182D5 75.96%);
+    border-radius: 100px;
+}
+.info--content--container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 4rem;
+}
+.info--content--title{
+    width: 248px;
+    height: 24px;
+    left: 1001px;
+    top: 1015px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    
+    color: #FFFFFF;
+    
+}
+.info--content--Description{
+    width: 393px;
+    height: 40px;
+    left: 1000px;
+    top: 1049px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    /* or 157% */
+    
+    
+    color: #FFFFFF;
+}
