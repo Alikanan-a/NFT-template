@@ -1,5 +1,5 @@
 /*=============== SET UP  ===============*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap'); */
 html {
     overflow-x: hidden;
 }
@@ -129,9 +129,9 @@ img {
 
 /*=============== HOME PAGE  ===============*/
 .main{
-    background-image: url('../IMG/abstract-background-with-low-poly-design_1048-8478.avif');
+    background-image: url('../IMG/0b0d9ab499a0e440dbd9e5175e429c59.jfif');
     background-size: cover;
-
+    background-blend-mode: multiply;
     background-repeat: no-repeat;
 }
 .home--page{
@@ -504,7 +504,7 @@ img {
 .info--page{
     width: 100%;
     height: 900px;
-    background-image: url('../IMG/download\ \(3\).jfif');
+    background-image: url('../IMG/5466d5e7dd15f35a92ffaa277d401319.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -1097,14 +1097,46 @@ border: 4rem solid #FFFDFD;
     grid-template-columns: repeat(4,1fr);    
     column-gap: 2rem;
 }
-.member {
+.member1 {
     display: flex;
     justify-content: center;
     align-items: end;
     border-radius: 10px;
     width: 329px;
     height: 421px;
-    background-color: #3D88FB;
+    background-image: url('../IMG/d61d8135860900fe4365d425e9bed45c.jfif');
+    background-size: cover;
+}
+.member2 {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    border-radius: 10px;
+    width: 329px;
+    height: 421px;
+    background-image: url('../IMG/d61d8135860900fe4365d425e9bed45c.jfif');
+    background-size: cover;
+}
+.member3 {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    border-radius: 10px;
+    width: 329px;
+    height: 421px;
+    background-image: url('../IMG/d61d8135860900fe4365d425e9bed45c.jfif');
+    background-size: cover;
+}
+.member4 {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    border-radius: 10px;
+    width: 329px;
+    height: 421px;
+    background-image: url('../IMG/d61d8135860900fe4365d425e9bed45c.jfif');
+    background-size: cover;
+    /* background-color: #3D88FB; */
 }
 .member-name-section {
     display: flex;
@@ -1159,7 +1191,7 @@ border: 4rem solid #FFFDFD;
     align-items: center;
     width: 100%;
     height: 1000px;
-    background-color: #C87B07;
+    background-color: #050231;
 }
 .question--container{
     display: flex;
@@ -1168,7 +1200,7 @@ border: 4rem solid #FFFDFD;
     align-items: center;
     width: 1124px;
     height: 824px;
-    background-color: #A62435;
+    background: transparent;
 }
 .question--upper{
     display: flex;
@@ -1249,9 +1281,8 @@ border: 4rem solid #FFFDFD;
 .question--section-box {
     width: 100%;
     height: 100px;  
-    background: #110E3B;
     border: 1px solid #3F3C61;
-    backdrop-filter: blur(12px);
+    background-color: #110E3B;
     /* Note: backdrop-filter has minimal browser support */
 
 font-family: 'Inter';
@@ -1265,4 +1296,204 @@ letter-spacing: -0.02em;
 
 color: #FFFFFF;
     border-radius: 8px;
+}
+.documents--page {
+    width: 100%;
+    height: 550px;
+    background-color: #100A3D;
+    background-image: url(../IMG/ce69263aca922e28b6f9adae322e7ace\ \(1\).png);
+}
+
+.contact-us--page{
+    width: 100%;
+    height: 1000px;
+    background-color: 
+    #05001b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.contact-us--container{
+    background-color: aqua;
+    width: 933px;
+    height: 431px;
+    display: flex;
+}
+.contact--info{
+    width: 50%;
+    height: 100%;
+}
+.contact--list{
+    width: 50%;
+    height: 100%;
+    background-color: #05001b;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1rem;
+}
+.full-name{
+    width: 454px;
+    height: 45px;
+    left: 814px;
+    top: 6557px;
+    
+    background: #110E3B;
+    border: 1px solid #3F3C61;
+    backdrop-filter: blur(12px);
+    /* Note: backdrop-filter has minimal browser support */
+    color: #FFFFFF;
+    border-radius: 8px;
+}
+.massage{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    width: 454px;
+    height: 121px;
+    background: #110E3B;
+    border: 1px solid #3F3C61;
+    backdrop-filter: blur(12px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 8px
+}
+.contact--list button {
+    margin-top: 3.65rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 38px;
+    width: 273px;
+    height: 48px;
+    color: #FFFFFF;
+    background: linear-gradient(272.09deg, #FF4581 0%, #4182D5 100%);
+    border-radius: 100px;
+}
+
+
+.stay-Updated--page{
+    width: 100%;
+    height: 600px;
+    background: #150546FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.stay-Updated--page h2 {
+    width: 519px;
+    height: 55px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 55px;
+    /* identical to box height, or 157% */
+    
+    letter-spacing: 0.015em;
+    
+    color: #FFFFFF;
+}
+.gmail--input{
+    width: 691px;
+    height: 57px;
+    border: none;
+    background: rgba(84, 72, 120, 0.3);
+    border-radius: 100px;
+    color: #FFFFFF;
+}
+.gmail--input--fill{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    /* padding: 8px 59px; */
+    gap: 16px;
+    width: 210px;
+    bottom: 0;
+    background: linear-gradient(272.09deg, #FF4581 0%, #4182D5 100%);
+    border-radius: 100px;
+    right: 0px;
+    top: 0px;
+    position: absolute;
+}
+.gmail--input--fill span{
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    
+    /* identical to box height, or 188% */
+    
+    letter-spacing: 0.01em;
+    
+    color: #FFFFFF;
+}
+.stay-Updated--page span {
+    width: 624px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 27px;
+    /* or 180% */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    color: rgba(255, 255, 255, 0.6);
+    
+    
+}.social--media {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    column-gap: .75rem;
+}
+.social--media i {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px;
+    gap: 10px;
+
+    width: 40px;
+    height: 40px;
+    background: #403668;
+    border-radius: 9px;
+}
+footer{
+   position: absolute;
+    width: 100%;
+    height: 50px;
+    bottom:0;
+    border-top: 2px solid  #111350;
+}
+footer span {
+    width: 301px;
+    height: 27px;
+    left: 650px;
+    top: 7495px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 27px;
+    /* identical to box height, or 180% */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+}
+.gmail-container{
+    position: relative;
 }
