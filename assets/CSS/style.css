@@ -1385,8 +1385,16 @@ color: #FFFFFF;
     justify-content: center;
     align-items: center;
     position: relative;
+    row-gap: 3rem   ;
+}
+.update--upper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .stay-Updated--page h2 {
+    margin-left: 1rem;
     width: 519px;
     height: 55px;
     font-family: 'Inter';
@@ -1463,7 +1471,7 @@ color: #FFFFFF;
     align-items: center;
     padding: 9px;
     gap: 10px;
-
+    color: #fff;
     width: 40px;
     height: 40px;
     background: #403668;
@@ -1475,6 +1483,9 @@ footer{
     height: 50px;
     bottom:0;
     border-top: 2px solid  #111350;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 footer span {
     width: 301px;
