@@ -67,6 +67,12 @@ img {
     color: #FFFFFF;
 
 }
+.nav__link li {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    column-gap: .25rem;
+}
 .login{
     display: flex;
     flex-direction: row;
@@ -163,7 +169,7 @@ img {
     row-gap: 3rem;
     position: static;
     width: 590px;
-    height: 349px;
+    height: 500px;
     left: 95px;
     top: 221px;
 }
@@ -175,7 +181,7 @@ img {
     height: 40px;
     left: 96px;
     top: 221px;
-    
+    padding: 5px;
     background: #2F1D52;
     border-radius: 100px;
 }
@@ -251,7 +257,7 @@ img {
     align-items: center;
     padding: 17px 15px 17px 27px;
     gap: 16px;
-    
+   
     width: 330px;
     height: 64px;
     left: 95px;
@@ -274,7 +280,7 @@ img {
     width: 30px;
     height: 30px;
 
-    
+    color: #D79DC7;
     background: #FFFFFF;
 }
 
@@ -284,10 +290,10 @@ img {
     grid-template-columns: repeat(1,1fr);
     text-align: center;
     box-sizing: border-box;
-    row-gap: 2rem;
+    row-gap: 5rem;
     position: static;
-    width: 571px;
-    height: 451px;
+    width: 600px;
+    height: 500px;
     left: 935px;
     top: 170px;
 
@@ -318,6 +324,7 @@ img {
 .counter{
     display: grid;
     grid-template-columns: repeat(4,1fr);
+    height: 5rem;
 }
 .counter--sections{
     text-align: center;
@@ -378,8 +385,8 @@ img {
 .counter--timeline{
     width: 487px;
     height: 109px;
-    left: 975px;
-    top: 419px;
+    margin-left:1rem ;
+
 }
 
 .upper-title {
@@ -486,8 +493,6 @@ img {
     justify-content: space-between;
     width: 80%;
     height: 30px;
-    left: 1032px;
-    top: 498px;
     margin-left: 5.5rem;
     font-family: sans-serif;
     font-style: normal;
@@ -508,9 +513,12 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: -3.1rem;
+    overflow: hidden;
     width: 100%;
     height: 70px;
     background: rgba(101, 83, 135, 0.3);
+    border-radius: 0% 12px;
 }
 .logo__container {
 
@@ -536,6 +544,11 @@ img {
 }
 .info--container{
     /* position: relative; */
+    display: flex;
+    row-gap: 3rem;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
     top: 140px;
     margin-left: 1163px;
     width: 600px;
@@ -581,7 +594,7 @@ img {
 .dashed--lines{
     z-index: 2;
     position: absolute;
-    margin-bottom: 4rem;
+    margin-top: 4rem;
     margin-left: 67.33rem;
     width: 222px;
     height: 0px;
@@ -598,6 +611,10 @@ img {
 
 }
 .info--section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
     width: 48px;
     height: 48px;
     z-index: 3;
@@ -780,9 +797,9 @@ img {
 .distribution--page {
    width: 100%;
    height: 600px; 
-   background-color: #443D6D;
+   background-color: rgb(10, 0, 51);;
    display: flex;
-   
+   row-gap: 3rem;
    flex-direction: column;
    justify-content: center;
    align-items: center;
@@ -795,7 +812,7 @@ img {
 }
 .distribution--title{
     width: 655px;
-    height: 110px;
+    height: 80px;
     left: 472px;
     top: 2068px;
     
@@ -812,7 +829,7 @@ img {
     
     
 }
-.distribution--title  span {
+.distribution--upper-page span {
     width: 800px;
     height: 63px;
     left: 407px;
@@ -823,9 +840,7 @@ img {
     font-weight: 500;
     font-size: 17px;
     line-height: 21px;
-    
     color: #FFFFFF;
-    
 }
 .distribution--sections {
     width: 381px;
@@ -861,9 +876,11 @@ img {
 }
 .distribution--charts {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     width: 100%;
+    margin-left: -10rem;
+    column-gap: 10rem;
 }
 .left-distribution-range {
     display: flex;
@@ -963,12 +980,54 @@ border: 4rem solid #FFFDFD;
 }
 /*=============== road map --page  ===============*/
 .roadmap--page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     width: 100%;
     height: 794px;
     left: 0px;
     top: 2702px;
     
     background: #100442;
+}
+.road-map--upper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.road-map-title{
+    width: 162px;
+    height: 55px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 55px;
+    /* identical to box height, or 157% */
+    
+    letter-spacing: 0.01em;
+    
+    color: #FFFFFF;
+    
+    
+}
+.road-map-span{
+    width: 652px;
+    height: 54px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 27px;
+    /* or 180% */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+    
 }
 /*=============== token detail--page  ===============*/
 .token-detail{
