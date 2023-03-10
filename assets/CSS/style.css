@@ -270,8 +270,12 @@ img {
     /* identical to box height, or 188% */
     letter-spacing: 0.01em;    
     color: #FFFFFF;
-
+    transition: 320ms;
     
+}
+.register--and--buy__buttons:hover {
+    transform: scale(1.1);
+
 }
 .register--and--buy__buttons i {
     line-height: 30px;
@@ -710,6 +714,7 @@ img {
 .blog--sections {
     display: grid;
     grid-template-columns: repeat(4,1fr);
+    column-gap: 4rem;
 }
 
 .blog--section__border{
@@ -744,6 +749,7 @@ img {
     width:100%;
     height: 100%;
     color: #FFFFFF;
+    font-size: 30px;
     /* background: #D9D9D9; */
 
 }
@@ -850,6 +856,7 @@ img {
     align-items: center;
     background: #1E1C46;
     border-radius: 100px;
+    
 }
 .distribution--section{
     margin: 0 3px;
@@ -866,26 +873,27 @@ img {
     /* identical to box height, or 188% */
     
     letter-spacing: 0.01em;
-    
+    /* transition: 320ms; */
     color: #454366;
     
 }
-.distribution--section:first-child {
+.distribution--section:hover {
     background: linear-gradient(272.09deg, #FF4581 0%, #4182D5 100%);
     border-radius: 100px;
+    color: #FFFFFF;
 }
 .distribution--charts {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-left: -10rem;
     column-gap: 10rem;
 }
 .left-distribution-range {
     display: flex;
     flex-direction: column;
     row-gap: 2rem;
+    width: 450px;
 }
 .left-d-range-title {
     width: 242px;
@@ -959,6 +967,7 @@ border: 4rem solid #FFFDFD;
     display: flex;
     flex-direction: column;
     row-gap: 2rem;
+    width: 450px;
 }
 .file-r-range1{
     width: 45px;
@@ -985,7 +994,7 @@ border: 4rem solid #FFFDFD;
     align-items: center;
     flex-direction: column;
     width: 100%;
-    height: 794px;
+    height: 1000px;
     left: 0px;
     top: 2702px;
     
@@ -1630,8 +1639,6 @@ border: 4rem solid #FFFDFD;
     height: 64px;;
   }
   .contact-circle:after{
-   
-    display: block;
     top: 5px;
     left: 5px;
     width: 58px;
@@ -1643,6 +1650,14 @@ border: 4rem solid #FFFDFD;
     background-size: cover;
     border-radius: 50%;
     overflow: hidden;
+  }
+  .contact-circle i {
+    left: 1.1rem;
+    position: absolute;
+    width: 43px;
+    color: #FFFFFF;
+    z-index: 10000;
+    font-size: 30px;
   }
 .contact--list{
     width: 50%;
@@ -1657,9 +1672,7 @@ border: 4rem solid #FFFDFD;
 .full-name{
     width: 454px;
     height: 45px;
-    left: 814px;
-    top: 6557px;
-    
+    padding: 10px;    
     background: #110E3B;
     border: 1px solid #3F3C61;
     backdrop-filter: blur(12px);
@@ -1678,7 +1691,7 @@ border: 4rem solid #FFFDFD;
     border: 1px solid #3F3C61;
     backdrop-filter: blur(12px);
     /* Note: backdrop-filter has minimal browser support */
-    
+    padding: 10px;   
     border-radius: 8px
 }
 .contact--list button {
