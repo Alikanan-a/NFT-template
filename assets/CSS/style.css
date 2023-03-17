@@ -45,7 +45,7 @@ img {
     top: 17px;
     /* bottom: 27px; */
 }
-.nav__link{
+.nav__links{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -67,11 +67,12 @@ img {
     color: #FFFFFF;
 
 }
-.nav__link li {
+.nav__links li {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     column-gap: .25rem;
+    height: 5rem;
 }
 .login{
     display: flex;
@@ -135,8 +136,78 @@ img {
     color: #FFFFFF;
 }
 
-
-
+.dropdown-menu {
+    
+    position: absolute;
+    top: 5rem;
+    background-color: #00D199;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    /* row-gap: 2rem; */
+    width: 150px;
+    height: 150px;
+    z-index: 10000;
+}
+.dropdown-menu1 {
+    position: absolute;
+    top: 5rem;
+    background-color: #00D199;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    /* row-gap: 2rem; */
+    width: 150px;
+    height: 150px;
+    z-index: 10000;
+}
+.dropdown-menu2 {
+    position: absolute;
+    top: 5rem;
+    background-color: #00D199;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    /* row-gap: 2rem; */
+    width: 150px;
+    height: 150px;
+    z-index: 10000;
+}
+.dropdown-menu3{
+    position: absolute;
+    top: 5rem;
+    background-color: #00D199;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    /* row-gap: 2rem; */
+    width: 150px;
+    height: 150px;
+    z-index: 10000;
+}
+.dropdown-menu4{
+    position: absolute;
+    top: 5rem;
+    background-color: #00D199;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    /* row-gap: 2rem; */
+    width: 150px;
+    height: 150px;
+    z-index: 10000;
+}
+.dropdown-item {
+    display: flex;
+    border-bottom: 1px solid black;
+    width: 100%;
+    height: calc(100% /3);
+}
 /*=============== HOME PAGE  ===============*/
 .main{
     background-image: url('../IMG/0b0d9ab499a0e440dbd9e5175e429c59.jfif');
@@ -309,8 +380,7 @@ img {
     border-radius: 12px;
 }
 .banner--right_title {
-    margin-left: 4.5rem;
-    width: 387px;
+    width: 100%;
     height: 47px;
     left: 1067px;
     top: 207px;
@@ -377,8 +447,8 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 69px;
-    height: 70px;
+    width: 79px;
+    height: 80px;
     left: 1020px;
     top: 285px;
 
@@ -672,7 +742,7 @@ img {
     align-items: center;
     row-gap: 8rem;
     /* align-items: center; */
-    height: 550px;
+    height: 650px;
     width: 100%;
     background: rgba(143, 32, 146, 0.45);
     background-color: #100442;
@@ -802,7 +872,7 @@ img {
 
 .distribution--page {
    width: 100%;
-   height: 600px; 
+   height: 700px; 
    background-color: rgb(10, 0, 51);;
    display: flex;
    row-gap: 3rem;
